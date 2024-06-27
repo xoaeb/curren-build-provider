@@ -1,16 +1,16 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { HiMessageComponent } from './hi-message.component';
+import { CurrentBuildComponent } from './current-build-provider.component';
 
 describe('HiMessageComponent', () => {
-  let component: HiMessageComponent;
-  let fixture: ComponentFixture<HiMessageComponent>;
+  let component: CurrentBuildComponent;
+  let fixture: ComponentFixture<CurrentBuildComponent>;
 
   beforeEach(() => {
     TestBed.configureTestingModule({
-      declarations: [HiMessageComponent]
+      declarations: [CurrentBuildComponent]
     });
-    fixture = TestBed.createComponent(HiMessageComponent);
+    fixture = TestBed.createComponent(CurrentBuildComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

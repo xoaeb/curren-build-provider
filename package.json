@@ -1,6 +1,8 @@
 {
     "name": "current-build-provider",
-    "version": "0.0.8",
+    "version": "0.1.0",
+    "description": "<lib-current-build-provider [owner]='owner' [repo]='repo' [accessToken]='githubToken'></lib-current-build-provider'>",
+
     "scripts": {
         "ng": "ng",
         "start": "ng serve",

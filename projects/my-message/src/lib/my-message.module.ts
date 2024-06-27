@@ -1,19 +1,18 @@
 import { NgModule } from '@angular/core';
-import { MyMessageComponent } from './my-message.component';
-import { HiMessageComponent } from './my-message/hi-message/hi-message.component';
+import { CurrentBuildComponent } from './my-message/hi-message/current-build-provider.component';
 
 import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
   declarations: [
-    MyMessageComponent,
-    HiMessageComponent
+    
+    CurrentBuildComponent
   ],
   imports: [HttpClientModule
   ],
   exports: [
-    MyMessageComponent,HiMessageComponent
+    CurrentBuildComponent
   ]
 })
 export class MyMessageModule { }

@@ -4,11 +4,11 @@ import { HttpClient } from '@angular/common/http';
 import { MyMessageService } from '../../my-message.service';
 
 @Component({
-  selector: 'lib-hi-message',
-  templateUrl: './hi-message.component.html',
-  styleUrls: ['./hi-message.component.css'],
+  selector: 'lib-current-build-provider',
+  templateUrl: './current-build-provider.component.html',
+  styleUrls: ['./current-build-provider.component.css'],
 })
-export class HiMessageComponent implements OnInit {
+export class CurrentBuildComponent implements OnInit {
   buildVersion: string = 'Loading...';
 
   @Input() owner: string = '';
