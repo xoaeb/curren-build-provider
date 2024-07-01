@@ -7,6 +7,12 @@ This library was generated with [Angular CLI](https://github.com/angular/angular
 Run `ng generate component component-name --project my-message` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project my-message`.
 > Note: Don't forget to add `--project my-message` or else it will be added to the default project in your `angular.json` file. 
 
+
+## Usage
+
+<current-build-provider [owner]="owner" [repo]="repo" [accessToken]="githubToken"></current-build-provider>
+
+
 ## Build
 
 Run `ng build my-message` to build the project. The build artifacts will be stored in the `dist/` directory.
