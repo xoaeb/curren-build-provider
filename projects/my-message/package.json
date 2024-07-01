@@ -1,6 +1,6 @@
 {
     "name": "current-build-provider",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "<lib-current-build-provider [owner]='owner' [repo]='repo' [accessToken]='githubToken'></lib-current-build-provider'>",
 
 
