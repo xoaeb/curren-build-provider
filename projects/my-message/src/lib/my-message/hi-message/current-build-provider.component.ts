@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 import { MyMessageService } from '../../my-message.service';
 
 @Component({
-  selector: 'lib-current-build-provider',
+  selector: 'current-build-provider',
   templateUrl: './current-build-provider.component.html',
   styleUrls: ['./current-build-provider.component.css'],
 })

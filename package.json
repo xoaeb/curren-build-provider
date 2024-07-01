@@ -1,6 +1,6 @@
 {
     "name": "current-build-provider",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "<lib-current-build-provider [owner]='owner' [repo]='repo' [accessToken]='githubToken'></lib-current-build-provider'>",
 
     "scripts": {
@@ -9,6 +9,18 @@
         "build": "ng build",
         "watch": "ng build --watch --configuration development",
         "test": "ng test"
+    },
+
+    "keywords": [
+        "angular",
+        "components",
+        "ui"
+    ],
+    "author": "Shoaib Salim",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/xoaeb/current-build-provider"
     },
     "private": true,
     "dependencies": {
